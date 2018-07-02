@@ -17,9 +17,9 @@ export class PostCreateComponent{
 constructor(public postsService: PostsService){
 
 }
-
-  doSomething(postInput: HTMLTextAreaElement){
+  doSomething(postInput: HTMLTextAreaElement) {
     const post: Post = {
+      id: 'asdadqeqwe',
       title: this.postTitle,
       content: this.postContent
     };
